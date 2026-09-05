@@ -22,7 +22,7 @@ def ctruscottwatters_y2(L):
 
 def CTruscottPermutations():
 	combo_all = []
-	for L in [[1, 2, 3], [1, 2, 3, 4], [1, 2, 3, 4, 5], [1, 2, 3, 4, 5, 6]]:
+	for L in [[1, 2, 3, 4, 5]]:
 		combos = []
 		c1 = len(L) - 1
 		for e in ctruscottwatters_y1(L):
